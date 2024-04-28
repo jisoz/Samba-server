@@ -1,0 +1,8 @@
+/etc/samba/smb.conf
+[shared]
+comment = Shared Folder
+path = /home/odroid/drive
+valid users = samba, odroid
+guest ok = yes
+writable = yes
+browsable = yes
